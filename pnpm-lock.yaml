@@ -9,6 +9,7 @@ specifiers:
   postcss: ^8.3.9
   postcss-load-config: ^3.1.0
   svelte: ^3.42.6
+  svelte-feather-icons: ^3.5.0
   svelte-preprocess: ^4.9.8
   tailwindcss: ^2.2.16
 
@@ -23,6 +24,7 @@ devDependencies:
   postcss: 8.3.9
   postcss-load-config: 3.1.0
   svelte: 3.43.2
+  svelte-feather-icons: 3.5.0
   svelte-preprocess: 4.9.8_6791a88092a7dfc8f03ced7bd61bb4e4
   tailwindcss: 2.2.17_96f83969316717847b3edf58a3f353f3
 
@@ -1867,6 +1869,12 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       has-flag: 4.0.0
+    dev: true
+
+  /svelte-feather-icons/3.5.0:
+    resolution: {integrity: sha512-AO6vwbI+WH8xouZRIxyenUV2olSAjp0QFgBa4esyS9ZxvBmKkRu9VTfgbMW0F1N7QTOWbMpgaForsnOcFGfXeg==}
+    dependencies:
+      svelte: 3.43.2
     dev: true
 
   /svelte-hmr/0.14.7_svelte@3.43.2:
