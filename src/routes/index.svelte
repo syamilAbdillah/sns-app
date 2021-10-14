@@ -1,3 +1,16 @@
+<script>
+	import Carousel from '../components/Carousel.svelte'
+
+	const images = [
+		'stock-0.jpg',
+		'stock-1.jpg',
+		'stock-2.jpg',
+		'stock-3.jpg'
+	]
+</script>
+
+<Carousel images={images}></Carousel>
+
 <h1>Welcome to SvelteKit</h1>
 <button class="btn btn-primary">daisyUI Button</button>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>

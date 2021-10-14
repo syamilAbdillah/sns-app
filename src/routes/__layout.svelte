@@ -11,6 +11,5 @@
 {/if}
 
 <div class="container md:container pt-20 px-4 mx-auto">
-  <slot>
-  </slot>  
+  <slot></slot>  
 </div>

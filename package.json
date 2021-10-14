@@ -14,12 +14,10 @@
     "postcss": "^8.3.9",
     "postcss-load-config": "^3.1.0",
     "svelte": "^3.42.6",
+    "svelte-carousel": "^1.0.16",
     "svelte-feather-icons": "^3.5.0",
     "svelte-preprocess": "^4.9.8",
     "tailwindcss": "^2.2.16"
   },
-  "type": "module",
-  "dependencies": {
-    "boxicons": "^2.0.9"
-  }
+  "type": "module"
 }

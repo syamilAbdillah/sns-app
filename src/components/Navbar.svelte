@@ -5,7 +5,7 @@
   const handleOpen = () => isDrawerOpen.update(() => true)
 </script>
 
-<nav class="navbar fixed inset-x-0 top-0 bg-base-100 glass">
+<nav class="navbar fixed z-500 inset-x-0 top-0 bg-base-100 glass">
   <div class="container md:container mx-auto">
     <div class="navbar-start flex lg:hidden">
       <button on:click={handleOpen} class="btn btn-ghost btn-circle">
@@ -30,3 +30,9 @@
     </div>
   </div>
 </nav>
+
+<style>
+  .z-500{
+    z-index: 500;
+  }
+</style>
