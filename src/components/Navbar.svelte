@@ -13,9 +13,9 @@
       </button>
     </div>
     <div class="navbar-start hidden lg:flex">
-      <a href="#" class="btn btn-ghost">products</a>
-      <a href="#" class="btn btn-ghost">categories</a>
-      <a href="#" class="btn btn-ghost">about</a>
+      <a href="/product" class="btn btn-ghost">products</a>
+      <a href="/categories" class="btn btn-ghost">categories</a>
+      <a href="/about" class="btn btn-ghost">about</a>
     </div>
     <div class="navbar-center">
       <a href="/" class="btn btn-ghost">BRAND</a>
